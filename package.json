@@ -1,15 +1,18 @@
 {
-	"name": "camelcase-keys",
-	"version": "6.1.2",
+	"name": "camel-object",
+	"version": "1.0.0",
 	"description": "Convert object keys to camel case",
 	"license": "MIT",
-	"repository": "sindresorhus/camelcase-keys",
-	"funding": "https://github.com/sponsors/sindresorhus",
-	"author": {
+	"repository": "bloodf/camel-object",
+	"author": [{
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
 		"url": "sindresorhus.com"
-	},
+	},{
+		"name": "Heitor Ramon Ribeiro",
+		"email": "heitor.ramon@gmail.com",
+		"url": "heitorramon.com"
+	}],
 	"engines": {
 		"node": ">=8"
 	},

@@ -1,17 +1,17 @@
 /* globals bench suite set */
 'use strict';
-const camelcaseKeysNpm = require('camelcase-keys');
+const camelcaseNpm = require('camel-object');
 const fixture = require('./fixture');
-const camelcaseKeys = require('..');
+const camelcase = require('..');
 
-suite('camelcaseKeys', () => {
+suite('camelcase', () => {
 	set('mintime', 1000);
 
 	bench('npm', () => {
-		camelcaseKeysNpm(fixture, {deep: true});
+		camelcaseNpm(fixture, {deep: true});
 	});
 
 	bench('master', () => {
-		camelcaseKeys(fixture, {deep: true});
+		camelcase(fixture, {deep: true});
 	});
 });

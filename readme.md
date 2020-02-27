@@ -1,6 +1,6 @@
-# camelcase-keys [![Build Status](https://travis-ci.org/sindresorhus/camelcase-keys.svg?branch=master)](https://travis-ci.org/sindresorhus/camelcase-keys)
+# camel-object
 
-> Convert object keys to camel case using [`camelcase`](https://github.com/sindresorhus/camelcase)
+> Based on [camelcase-keys](https://github.com/sindresorhus/camelcase)
 
 ## Install
 
