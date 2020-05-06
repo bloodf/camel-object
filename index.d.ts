@@ -58,7 +58,7 @@ declare namespace camelcaseKeys {
 }
 
 /**
-Convert object keys to camel case using [`camelcase`](https://github.com/sindresorhus/camelcase).
+Convert object keys to camel case using [`camelcase`](https://github.com/bloodf/camel-object).
 
 @param input - Object or array of objects to camel-case.
 
